@@ -9,7 +9,7 @@ on:
 
 jobs:
   analyze_and_test:
-    runs-on: mobile-2xlarge-ondemand-runner
+    runs-on: ubuntu:latest
 
     steps:
       - name: Checkout code
